@@ -26,3 +26,25 @@ these companies.
 * Author: Seckin Dinc ([Seckin Dinc on LinkedIn](https://www.linkedin.com/in/seckindinc/), [Seckin Dinc on Medium](https://medium.com/@seckindinc))
 * Link to the article: https://medium.com/@seckindinc/data-validation-documentation-and-profiling-with-great-expectations-c7d05690c690
 * Publisher: Medium
+
+### Preventing data quality issues with unit testing
+* Title: Preventing Data Quality Issues with Unit Testing
+* Date: March 2023
+* Author: Seckin Dinc ([Seckin Dinc on LinkedIn](https://www.linkedin.com/in/seckindinc/), [Seckin Dinc on Medium](https://medium.com/@seckindinc))
+* Link to the article: https://medium.com/@seckindinc/preventing-data-quality-issues-with-unit-testing-1b0565d3a4db
+* Publisher: Medium
+
+### Data Quality in Python Pipelines
+* Title: Data Quality in Python Pipelines!
+* Date: March 2023
+* Author: Josue Luzardo Gebrim ([Josue Luzardo Gebrim on LinkedIn](https://www.linkedin.com/in/josueluzardo/), [Josue Luzardo Gebrim on Medium](https://jlgjosue.medium.com/))
+* Link to the article: https://jlgjosue.medium.com/data-quality-in-python-pipelines-4ad1e8eb6603
+* Publisher: Medium
+
+### Using data linter to streamline data quality checks
+* Title: Using Data Linter to Streamline Data Quality Check
+* Date: March 2023
+* Author: Victoria Jiang ([Victoria Jiang on LinkedIn](https://www.linkedin.com/in/victoria-jiang-034953129/), [Victoria Jiang on Medium](https://medium.com/@shuyuj))
+* Link to the article: https://medium.com/@shuyuj/using-data-linter-to-streamline-data-quality-check-490a1eb6cdd6
+* Publisher: Medium
+
