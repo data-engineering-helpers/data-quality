@@ -16,7 +16,9 @@ Material for Data Quality in a Data Engineering perspective
     * [Data Quality Validation for Python Dataframes](#data-quality-validation-for-python-dataframes)
 * [Frameworks and tools](#frameworks-and-tools)
   * [Deequ](#deequ)
-  * [Great expectations](#great-expectations)
+  * [Great Expectations (GX)](#great-expectations-gx)
+  * [Data Diff](#data-diff)
+  * [Elementary](#elementary)
   * [SODA](#soda)
   * [Pydantic](#pydantic)
 
@@ -146,11 +148,24 @@ Deequ works on tabular data, _e.g._, Parquet and CSV files, database tables,
 logs, flattened JSON files, basically anything that you can fit into a Spark
 dataframe.
 
-## Great expectations
+## Great Expectations (GX)
 * Home page: https://greatexpectations.io/
 * GitHub page: https://github.com/great-expectations/great_expectations
 
-Great Expectations helps data teams eliminate pipeline debt, through data testing, documentation, and profiling.
+Great Expectations (GX) helps data teams eliminate pipeline debt, through data testing,
+documentation, and profiling.
+
+## Data Diff
+* Home page: https://docs.datafold.com/development_testing/open_source
+* GitHub page: https://github.com/datafold/data-diff
+
+See how every change to dbt code affects the data produced in the modified model and downstream.
+
+## Elementary
+* Home page: https://www.elementary-data.com/
+
+Monitor your data warehouse in minutes directly from dbt.
+An analytics engineer first solution for monitoring data quality and operations
 
 ## SODA
 * GitHub page: https://github.com/sodadata/soda-core
