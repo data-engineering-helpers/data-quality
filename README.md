@@ -163,6 +163,7 @@ See how every change to dbt code affects the data produced in the modified model
 
 ## Elementary
 * Home page: https://www.elementary-data.com/
+* GitHub page: https://github.com/elementary-data/elementary
 
 Monitor your data warehouse in minutes directly from dbt.
 An analytics engineer first solution for monitoring data quality and operations
