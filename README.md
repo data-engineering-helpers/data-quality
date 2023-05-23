@@ -5,6 +5,7 @@ Material for Data Quality in a Data Engineering perspective
 * [Overview](#overview)
 * [References](#references)
   * [Articles](#articles)
+    * [Data Quality with Great Expectations](#data-quality-with-great-expectations)
     * [Data validation, documentation, and profiling](#data-validation-documentation-and-profiling)
     * [Preventing data quality issues with unit testing](#preventing-data-quality-issues-with-unit-testing)
     * [Data Quality in Python Pipelines](#data-quality-in-python-pipelines)
@@ -40,6 +41,16 @@ these companies.
   [data engineering pipeline deployment tool](https://github.com/data-engineering-helpers/data-pipeline-deployment)
 
 ## Articles
+
+### Data Quality with Great Expectations
+* Title: Data Quality with Great Expectations
+* Date: May 2023
+* Author: Charles Verleyen
+  ([Charles Verleyen on LinkedIn](https://www.linkedin.com/in/charlesverleyen/),
+   [Charles Verleyen on Medium](https://medium.com/@charles.xavier.verleyen))
+* Link to the article:
+  https://medium.astrafy.io/data-quality-with-great-expectations-e41504d93e17
+* Publisher: Medium
 
 ### Data validation, documentation, and profiling
 * Title: Data Validation, Documentation, and Profiling with Great Expectations
