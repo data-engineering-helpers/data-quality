@@ -6,6 +6,7 @@ Material for Data Quality in a Data Engineering perspective
 * [References](#references)
   * [Articles](#articles)
     * [Data Quality with Great Expectations](#data-quality-with-great-expectations)
+    * [Data Quality 101: Ensuring accurate data in your pipelines](#data-quality-101-ensuring-accurate-data-in-your-pipelines)
     * [Data validation, documentation, and profiling](#data-validation-documentation-and-profiling)
     * [Preventing data quality issues with unit testing](#preventing-data-quality-issues-with-unit-testing)
     * [Data Quality in Python Pipelines](#data-quality-in-python-pipelines)
@@ -23,7 +24,6 @@ Material for Data Quality in a Data Engineering perspective
   * [Pydantic](#pydantic)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
-
 
 # Overview
 [This project](https://github.com/data-engineering-helpers/data-quality)
@@ -52,6 +52,16 @@ these companies.
    [Charles Verleyen on Medium](https://medium.com/@charles.xavier.verleyen))
 * Link to the article:
   https://medium.astrafy.io/data-quality-with-great-expectations-e41504d93e17
+* Publisher: Medium
+
+### Data Quality 101: Ensuring accurate data in your pipelines
+* Title: Data Quality 101: Ensuring accurate data in your pipelines
+* Date: May 2023
+* Author: Pedro Henrique
+  ([Pedro Henrique on LinkedIn](https://www.linkedin.com/in/pedro-henrique-schleder/),
+   [Pedro Henrique on Medium](https://medium.com/@pedro.schleder))
+* Link to the article:
+  https://medium.com/@pedro.schleder/data-quality-101-ensuring-accurate-data-in-your-pipelines-f1649c2c5241
 * Publisher: Medium
 
 ### Data validation, documentation, and profiling
