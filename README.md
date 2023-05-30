@@ -6,7 +6,7 @@ Material for Data Quality in a Data Engineering perspective
 * [References](#references)
   * [Use cases](#use-cases)
     * [Geonames](#geonames)
-    * [OpenTravelData (OPTD)](#opentraveldata)
+    * [OpenTravelData (OPTD)](#opentraveldata-optd)
   * [Articles](#articles)
     * [Data Quality with Great Expectations](#data-quality-with-great-expectations)
     * [Data Quality 101: Ensuring accurate data in your pipelines](#data-quality-101-ensuring-accurate-data-in-your-pipelines)
