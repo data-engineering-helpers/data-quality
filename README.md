@@ -6,6 +6,7 @@ Material for Data Quality in a Data Engineering perspective
 * [References](#references)
   * [Use cases](#use-cases)
     * [Geonames](#geonames)
+    * [OpenTravelData (OPTD)](#opentraveldata)
   * [Articles](#articles)
     * [Data Quality with Great Expectations](#data-quality-with-great-expectations)
     * [Data Quality 101: Ensuring accurate data in your pipelines](#data-quality-101-ensuring-accurate-data-in-your-pipelines)
@@ -87,6 +88,34 @@ allows to find the root cause of bad quality for the data.
 The [Geonames QA framework](http://qa.geonames.org/qa/) allows to vet the data sets
 for the monthly premium data feed, while keeping track of the problemtic records
 so that data stewards/curators may fix them later on.
+
+### OpenTravelData (OPTD)
+[OpenTravelData (OPTD)](https://github.com/opentraveldata/opentraveldata)
+curates, under the
+[Creative Commons (CC) BY 4.0 license](https://creativecommons.org/licenses/by/4.0/),
+[a few referential data sets](https://github.com/opentraveldata/opentraveldata/tree/master/opentraveldata#curated)
+relevant for industries like travel, transport and logistics,
+among others. Among many other original data sources, OPTD heavily rely on
+[Geonames (see above)](#geonames) for the geographical data sets.
+
+OPTD maintain a
+[GitHub repository dedicated to Quality Assurance (QA)](https://github.com/opentraveldata/quality-assurance)
+featuring
+[data validation rule checkers](https://github.com/opentraveldata/quality-assurance/tree/master/checkers).
+Each data validation rule checker yields a CSV file with all the problematic records.
+Like for the Geonames QA framework, 0 score means perfection and a high score means
+some poor quality for the corresponding data set.
+
+The resulting CSV files are published on the
+[Transport Search data QA page](https://transport-search.org/data/optd/qa/).
+For instance, for the 2 June 2021 snapshots:
+* Results of the validation checks are published on:
+  https://transport-search.org/data/optd/qa/2021-06-02/results/
+* Corresponding reference data sets (which have been checked):
+  https://transport-search.org/data/optd/qa/2021-06-02/to_be_checked/
+
+The data validation rule checkers are mere scripts. Most of them are
+written in Python, but any other programmation language may be used.
 
 ## Articles
 
