@@ -4,6 +4,8 @@ Material for Data Quality in a Data Engineering perspective
 # Table of Content (ToC)
 * [Overview](#overview)
 * [References](#references)
+  * [Use cases](#use-cases)
+    * [Geonames](#geonames)
   * [Articles](#articles)
     * [Data Quality with Great Expectations](#data-quality-with-great-expectations)
     * [Data Quality 101: Ensuring accurate data in your pipelines](#data-quality-101-ensuring-accurate-data-in-your-pipelines)
@@ -41,6 +43,50 @@ these companies.
   + [Material for the Data platform - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles/blob/main/material/README.md)
 * Specifications/principles for a
   [data engineering pipeline deployment tool](https://github.com/data-engineering-helpers/data-pipeline-deployment)
+
+## Use cases
+
+### Geonames
+[Geonames](https://www.geonames.org/) is kind of a geographic wiki,
+crowd-souring meta-data for points of interest (PoI)/points of reference (PoR)
+in the world.
+The corresponding data are stored in a geospatial PostgreSQL database,
+and published every day under the
+[Creative Commons (CC) BY 4.0 license](https://creativecommons.org/licenses/by/4.0/);
+the corresponding snapshots are available on http://download.geonames.org/export/dump/ .
+
+As the data are crowd-sourced, the daily snapshots may be corrupted with
+some errors, intentional or not. Geonames therefore offer a
+[premium, curated, monthly data feed service](http://www.geonames.org/products/premium-data.html),
+which guarantees that the data snapshots are free of the above-mentioned errors.
+
+For that purpose, Geonames maintain a
+[Quality Assurance (QA) framework](http://qa.geonames.org/qa/), where the data sets
+are checked every day against an extensive list of validation rules.
+
+Most of those validation rules take the shape of SQL queries
+and yield the problematic records:
+* The lower the number of returned records, the better the quality. A 0 score means
+  perfection (success in Geonames parlance)
+* If some records are retrieved (which are then, by design, problematic), they are
+  therefore exposed, so that some data curator/steward may fix them.
+  Example of such a list of problematic records:
+  http://qa.geonames.org/qa/2023-05-30/chkPPLAWithAdminCode1.html
+* Each number of records yields the corresponding time-series over time,
+  so that the users see how the quality has evolved over time.
+  ![Geonames QA for the "PPLA have valid admincode1" validation rule](img/geonames-qa-chkPPLAWithAdminCode1-20230530.png)
+
+Note: of course, as a wiki, Geonames track the full history of changes. For instance,
+[Dakhla](https://www.geonames.org/2463447) is retrieved as a problematic record for the
+above-mentioned data quality validation rule and, at some point, the so-named
+[`aiddata` user altered](https://www.geonames.org/recent-changes/user/aiddata/)
+that PoR.
+[Keeping track of the changes](https://www.geonames.org/recent-changes/)
+allows to find the root cause of bad quality for the data.
+
+The [Geonames QA framework](http://qa.geonames.org/qa/) allows to vet the data sets
+for the monthly premium data feed, while keeping track of the problemtic records
+so that data stewards/curators may fix them later on.
 
 ## Articles
 
