@@ -139,6 +139,16 @@ written in Python, but any other programmation language may be used.
   https://medium.com/@pedro.schleder/data-quality-101-ensuring-accurate-data-in-your-pipelines-f1649c2c5241
 * Publisher: Medium
 
+### Why Data Reliability Should Be the Top Priority
+* Title: Why Data Reliability Should Be the Top Priority: Understanding the Importance and Benefits
+* Date: April 2023
+* Author: Seckin Dinc
+  ([Seckin Dinc on LinkedIn](https://www.linkedin.com/in/seckindinc/),
+   [Seckin Dinc on Medium](https://medium.com/@seckindinc))
+* Link to the article:
+  https://medium.com/data-and-beyond/why-data-reliability-should-be-the-top-priority-understanding-the-importance-and-benefits-75d547a35b64
+* Publisher: Medium
+
 ### Data validation, documentation, and profiling
 * Title: Data Validation, Documentation, and Profiling with Great Expectations
 * Date: March 2023
