@@ -24,6 +24,7 @@ Material for Data Quality in a Data Engineering perspective
   * [Data Diff](#data-diff)
   * [Elementary](#elementary)
   * [SODA](#soda)
+  * [Google Common Expression Language](#google-common-expression-language)
   * [Pydantic](#pydantic)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
@@ -276,6 +277,12 @@ input to prepare SQL queries that run tests on tables in a data warehouse
 to find invalid, missing, or unexpected data. When tests fail,
 they surface "bad" data that you can fix to ensure that downstream
 analysts are using "good" data to make decisions.
+
+## Google Common Expression Language
+* GitHub: https://github.com/google/cel-spec
+* Homepage: https://opensource.google.com/projects/cel
+
+The Common Expression Language (CEL) implements common semantics for expression evaluation, enabling different applications to more easily interoperate.
 
 ## Pydantic
 * Pydantic official documentation: https://pydantic-docs.helpmanual.io/
