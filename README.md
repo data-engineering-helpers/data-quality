@@ -21,6 +21,7 @@ Material for Data Quality in a Data Engineering perspective
 * [Frameworks and tools](#frameworks-and-tools)
   * [Deequ](#deequ)
   * [Great Expectations (GX)](#great-expectations-gx)
+  * [DuckDQ](#duckdq)
   * [Data Diff](#data-diff)
   * [Elementary](#elementary)
   * [SODA](#soda)
@@ -250,8 +251,13 @@ dataframe.
 * Home page: https://greatexpectations.io/
 * GitHub page: https://github.com/great-expectations/great_expectations
 
-Great Expectations (GX) helps data teams eliminate pipeline debt, through data testing,
-documentation, and profiling.
+Great Expectations (GX) helps data teams eliminate pipeline debt,
+through data testing, documentation, and profiling.
+
+## DuckDQ
+* GitHub/home page: https://github.com/tdoehmen/duckdq
+
+DuckDQ is an embeddable Data Quality (DQ) validation tool in Python
 
 ## Data Diff
 * Home page: https://docs.datafold.com/development_testing/open_source
