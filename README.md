@@ -22,6 +22,7 @@ Material for Data Quality in a Data Engineering perspective
   * [Deequ](#deequ)
   * [Great Expectations (GX)](#great-expectations-gx)
   * [DuckDQ](#duckdq)
+  * [Hooqu](#hooqu)
   * [Data Diff](#data-diff)
   * [Elementary](#elementary)
   * [SODA](#soda)
@@ -258,6 +259,16 @@ through data testing, documentation, and profiling.
 * GitHub/home page: https://github.com/tdoehmen/duckdq
 
 DuckDQ is an embeddable Data Quality (DQ) validation tool in Python
+
+## Hooqu
+* GitHub/home page: https://github.com/mfcabrera/hooqu
+
+Hooqu is a library built on top of Pandas dataframes for defining "unit tests for data",
+which measure data quality datasets. Hooqu is a "spiritual" Python port of
+[Apache Deequ](#deequ) and has been in an experimental state since its creation.
+
+>**Note**
+Now that Deequ has a native Python version, there should be no more need for Hooqu.
 
 ## Data Diff
 * Home page: https://docs.datafold.com/development_testing/open_source
