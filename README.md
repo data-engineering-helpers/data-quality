@@ -124,6 +124,9 @@ written in Python, but any other programmation language may be used.
 
 ## Articles
 
+### Writing data to production
+* Link to the article: https://open.substack.com/pub/eczachly/p/writing-data-to-production-is-a-contract
+
 ### Data Quality with Great Expectations
 * Title: Data Quality with Great Expectations
 * Date: May 2023
