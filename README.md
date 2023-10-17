@@ -314,6 +314,6 @@ The Common Expression Language (CEL) implements common semantics for expression 
 
 ## Glue Data Quality
 * AWS page dedicated to AWS Glue Data Quality: http://aws.amazon.com/glue/features/data-quality
-* [AWS documentation - AWS Glue Data Quality]https://docs.aws.amazon.com/glue/latest/dg/glue-data-quality.html)
+* [AWS documentation - AWS Glue Data Quality](https://docs.aws.amazon.com/glue/latest/dg/glue-data-quality.html)
 * [AWS documentation - DQDL (Data Quality Definition Language) reference](https://docs.aws.amazon.com/glue/latest/dg/dqdl.html)
 
