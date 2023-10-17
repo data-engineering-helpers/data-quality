@@ -28,6 +28,7 @@ Material for Data Quality in a Data Engineering perspective
   * [SODA](#soda)
   * [Google Common Expression Language](#google-common-expression-language)
   * [Pydantic](#pydantic)
+  * [Glue Data Quality](#glue-data-quality)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
@@ -310,4 +311,9 @@ The Common Expression Language (CEL) implements common semantics for expression 
 * Pydantic official documentation: https://pydantic-docs.helpmanual.io/
 * 8 reasons to start using Pydantic, Medium, Oct. 2021:
   https://towardsdatascience.com/8-reasons-to-start-using-pydantic-to-improve-data-parsing-and-validation-4f437eae7678
+
+## Glue Data Quality
+* AWS page dedicated to AWS Glue Data Quality: http://aws.amazon.com/glue/features/data-quality
+* [AWS documentation - AWS Glue Data Quality]https://docs.aws.amazon.com/glue/latest/dg/glue-data-quality.html)
+* [AWS documentation - DQDL (Data Quality Definition Language) reference](https://docs.aws.amazon.com/glue/latest/dg/dqdl.html)
 
