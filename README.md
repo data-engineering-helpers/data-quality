@@ -8,6 +8,8 @@ Material for Data Quality in a Data Engineering perspective
     * [Geonames](#geonames)
     * [OpenTravelData (OPTD)](#opentraveldata-optd)
   * [Articles](#articles)
+    * [Seven Dimensions of Data Quality](#seven-dimensions-of-data-quality)
+    * [Writing data to production](#writing-data-to-production)
     * [Data Quality with Great Expectations](#data-quality-with-great-expectations)
     * [Data Quality 101: Ensuring accurate data in your pipelines](#data-quality-101-ensuring-accurate-data-in-your-pipelines)
     * [Data validation, documentation, and profiling](#data-validation-documentation-and-profiling)
@@ -126,8 +128,25 @@ written in Python, but any other programmation language may be used.
 
 ## Articles
 
+### Seven Dimensions of Data Quality
+* Title: Seven Dimensions of Data Quality
+* Date: May 2024
+* Author: Jean-Georges Perrin
+  ([Jean-Georges Perrin on LinkedIn](https://www.linkedin.com/in/jgperrin/),
+  [Jean-Georges Perrin on Medium](https://medium.com/@jgperrin))
+* Link to the article:
+  https://medium.com/abeadata/seven-dimensions-of-data-quality-a97df0b821b8
+* Publisher: Medium
+
 ### Writing data to production
-* Link to the article: https://open.substack.com/pub/eczachly/p/writing-data-to-production-is-a-contract
+* Title: Writing data to production is a contract that isn't free!
+* Date: Aug. 2023
+* Author: Zach Wilson
+  ([Zach Wilson on LinkedIn](https://www.linkedin.com/in/eczachly/),
+  [Zach Wilson on Substack](https://substack.com/@eczachly))
+* Link to the article:
+  https://open.substack.com/pub/eczachly/p/writing-data-to-production-is-a-contract
+* Publisher: Substack
 
 ### Data Quality with Great Expectations
 * Title: Data Quality with Great Expectations
