@@ -8,6 +8,7 @@ Material for Data Quality in a Data Engineering perspective
     * [Geonames](#geonames)
     * [OpenTravelData (OPTD)](#opentraveldata-optd)
   * [Articles](#articles)
+    * [4 Key Benefits of Shift Left](#4-key-benefits-of-shift-left)
     * [Seven Dimensions of Data Quality](#seven-dimensions-of-data-quality)
     * [Writing data to production](#writing-data-to-production)
     * [Data Quality with Great Expectations](#data-quality-with-great-expectations)
@@ -127,6 +128,16 @@ The data validation rule checkers are mere scripts. Most of them are
 written in Python, but any other programmation language may be used.
 
 ## Articles
+
+### 4 Key Benefits of Shift Left
+* Title: 4 Key Benefits of Shift Left
+* Date: Oct. 2024
+* Author: Andy Sawyer
+  ([Andy Sawyer on LinkedIn](https://www.linkedin.com/in/andrewdsawyer/),
+  [Andy Sawyer on Medium](https://medium.com/@nydas))
+* Link to the article:
+  https://www.linkedin.com/feed/update/urn:li:activity:7254749855766528001/
+* Publisher: Medium
 
 ### Seven Dimensions of Data Quality
 * Title: Seven Dimensions of Data Quality
