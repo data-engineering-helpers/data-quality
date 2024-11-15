@@ -47,6 +47,7 @@ these companies.
 
 # References
 * [Material for Data platform - Data contracts](https://github.com/data-engineering-helpers/data-contracts)
+* [Material for Data platform - Data products](https://github.com/data-engineering-helpers/data-products)
 * [Architecture principles for data engineering pipelines on the Modern Data Stack (MDS)](https://github.com/data-engineering-helpers/architecture-principles)
   + [Material for the Data platform - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles/blob/main/material/README.md)
   + [Material for the Data platform - Modern Data Stack (MDS) in a box](https://github.com/data-engineering-helpers/mds-in-a-box/blob/main/README.md)
