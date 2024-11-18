@@ -22,6 +22,7 @@ Material for Data Quality in a Data Engineering perspective
     * [The four pillars of data observability](#the-four-pillars-of-data-observability)
     * [Data Quality Validation for Python Dataframes](#data-quality-validation-for-python-dataframes)
 * [Frameworks and tools](#frameworks-and-tools)
+  * [Open Data Contract Standard (ODCS)](#open-data-contract-standard-odcs)
   * [Deequ](#deequ)
   * [Great Expectations (GX)](#great-expectations-gx)
   * [DuckDQ](#duckdq)
@@ -271,6 +272,13 @@ written in Python, but any other programmation language may be used.
 * Publisher: [Miguel Cabrera's blog](http://mfcabrera.com/)
 
 # Frameworks and tools
+
+## Open Data Contract Standard (ODCS)
+* Data quality TSC: https://github.com/bitol-io/tsc/blob/main/rfcs/0007-data-quality.md
+  * Part of the Open Data Contract Standard (ODCS):
+    https://github.com/bitol-io/open-data-contract-standard
+  * Integrated in the DataContract.com CLI tool:
+    https://github.com/datacontract/datacontract-specification/issues/55
 
 ## Deequ
 * GitHub page for Scala Spark version: https://github.com/awslabs/deequ
