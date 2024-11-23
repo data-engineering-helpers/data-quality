@@ -131,6 +131,14 @@ written in Python, but any other programmation language may be used.
 
 ## Articles
 
+### Build a Data Quality dashboard
+* Title: 
+* Data: Sep. 2024
+* Author: Hitesh Parab
+* Link to the article:
+  * Part 1: https://medium.com/@hitesh09parab/data-quality-framework-in-databricks-using-great-expectations-84baf00bb196
+  * Part 2: https://medium.com/@hitesh09parab/part-2-data-quality-dashboard-a-visual-approach-to-monitoring-expectations-in-databricks-4c490fc25891
+
 ### 4 Key Benefits of Shift Left
 * Title: 4 Key Benefits of Shift Left
 * Date: Oct. 2024
