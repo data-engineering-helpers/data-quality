@@ -9,6 +9,7 @@ Material for Data Quality in a Data Engineering perspective
     * [OpenTravelData (OPTD)](#opentraveldata-optd)
   * [Articles](#articles)
     * [4 Key Benefits of Shift Left](#4-key-benefits-of-shift-left)
+    * [The Data Quality Conundrum](#the-data-quality-conundrum)
     * [Seven Dimensions of Data Quality](#seven-dimensions-of-data-quality)
     * [Writing data to production](#writing-data-to-production)
     * [Data Quality with Great Expectations](#data-quality-with-great-expectations)
@@ -132,7 +133,7 @@ written in Python, but any other programmation language may be used.
 ## Articles
 
 ### Build a Data Quality dashboard
-* Title: 
+* Title: Build a Data Quality dashboard
 * Data: Sep. 2024
 * Author: Hitesh Parab
 * Link to the article:
@@ -148,6 +149,17 @@ written in Python, but any other programmation language may be used.
 * Link to the article:
   https://www.linkedin.com/feed/update/urn:li:activity:7254749855766528001/
 * Publisher: Medium
+
+### The Data Quality Conundrum
+* Title: The Data Quality Conundrum
+* Author: Dylan Anderson
+  ([Dylan Anderson on LinkedIn](https://www.linkedin.com/in/dylansjanderson/),
+  [Dylan Anderson on Substack](https://substack.com/@thedataecosystem))
+* Date: July 2024
+* Link to the Substack article:
+  https://thedataecosystem.substack.com/p/issue-15-the-data-quality-conundrum
+* Link to the LinkedIn post:
+  https://www.linkedin.com/posts/dylansjanderson_data-dataquality-datastrategy-activity-7274772396358688768-JNY5/
 
 ### Seven Dimensions of Data Quality
 * Title: Seven Dimensions of Data Quality
