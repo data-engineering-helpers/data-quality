@@ -156,8 +156,9 @@ written in Python, but any other programmation language may be used.
   ([Dylan Anderson on LinkedIn](https://www.linkedin.com/in/dylansjanderson/),
   [Dylan Anderson on Substack](https://substack.com/@thedataecosystem))
 * Date: July 2024
-* Link to the Substack article:
-  https://thedataecosystem.substack.com/p/issue-15-the-data-quality-conundrum
+* Link to the Substack articles:
+  * Part 1 - Root causes: https://thedataecosystem.substack.com/p/issue-15-the-data-quality-conundrum
+  * Part 2 - Solving: https://thedataecosystem.substack.com/p/the-data-quality-conundrum-part-2
 * Link to the LinkedIn post:
   https://www.linkedin.com/posts/dylansjanderson_data-dataquality-datastrategy-activity-7274772396358688768-JNY5/
 
