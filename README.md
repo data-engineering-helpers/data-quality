@@ -51,10 +51,10 @@ these companies.
 * [Material for Data platform - Data contracts](https://github.com/data-engineering-helpers/data-contracts)
 * [Material for Data platform - Data products](https://github.com/data-engineering-helpers/data-products)
 * [Architecture principles for data engineering pipelines on the Modern Data Stack (MDS)](https://github.com/data-engineering-helpers/architecture-principles)
-  + [Material for the Data platform - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles/blob/main/material/README.md)
-  + [Material for the Data platform - Modern Data Stack (MDS) in a box](https://github.com/data-engineering-helpers/mds-in-a-box/blob/main/README.md)
-  + [Material for the Data platform - Data-lakes, data warehouses, data lake-houses](https://github.com/data-engineering-helpers/data-lakehouse)
-  + [Material for the Data platform - Metadata](https://github.com/data-engineering-helpers/metadata/blob/main/README.md)
+  * [Material for the Data platform - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles/blob/main/material/README.md)
+  * [Material for the Data platform - Modern Data Stack (MDS) in a box](https://github.com/data-engineering-helpers/mds-in-a-box/blob/main/README.md)
+  * [Material for the Data platform - Data-lakes, data warehouses, data lake-houses](https://github.com/data-engineering-helpers/data-lakehouse)
+  * [Material for the Data platform - Metadata](https://github.com/data-engineering-helpers/metadata/blob/main/README.md)
 * Specifications/principles for a
   [data engineering pipeline deployment tool](https://github.com/data-engineering-helpers/data-pipeline-deployment)
 
@@ -131,6 +131,15 @@ The data validation rule checkers are mere scripts. Most of them are
 written in Python, but any other programmation language may be used.
 
 ## Articles
+
+### Testing, Monitoring, and Observability
+* Title: The Data Engineer’s Guide to Testing, Monitoring, and Observability
+* Date: Dec. 2024
+* Author: Alex Caruso
+  ([Alex Caruso on LinkedIn](https://www.linkedin.com/in/alexander-caruso/),
+  [Alex Caruso on Airbyte blog](https://airbyte.com/blog-authors/alex-caruso))
+* Link to the article: https://airbyte.com/blog/the-data-engineers-guide-to-testing-monitoring-and-observability
+* Publisher: Airbyte blog
 
 ### Build a Data Quality dashboard
 * Title: Build a Data Quality dashboard
