@@ -8,6 +8,7 @@ Material for Data Quality in a Data Engineering perspective
   * [Geonames](#geonames)
   * [OpenTravelData (OPTD)](#opentraveldata-optd)
 * [Articles](#articles)
+  * [Data Quality at Petabyte Scale: Building Trust in the Data Lifecycle](#data-quality-at-petabyte-scale-building-trust-in-the-data-lifecycle)
   * [Testing, Monitoring, and Observability](#testing-monitoring-and-observability)
   * [Build a Data Quality dashboard](#build-a-data-quality-dashboard)
   * [4 Key Benefits of Shift Left](#4-key-benefits-of-shift-left)
