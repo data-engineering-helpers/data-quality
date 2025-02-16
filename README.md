@@ -3,7 +3,7 @@ Material for Data Quality in a Data Engineering perspective
 
 # Table of Content (ToC)
 * [Overview](#overview)
-* [References](#references)
+  * [Other repositories of Data Engineering helpers](#other-repositories-of-data-engineering-helpers)
 * [Use cases](#use-cases)
   * [Geonames](#geonames)
   * [OpenTravelData (OPTD)](#opentraveldata-optd)
@@ -53,7 +53,7 @@ these companies.
 
 ## Other repositories of Data Engineering helpers
 * [Data Engineering Helpers - Knowledge Sharing - Data products](https://github.com/data-engineering-helpers/data-products)
-* [Data Engineering Helpers - Knowledge Sharing - Data quality](https://github.com/data-engineering-helpers/data-quality)
+* [Data Engineering Helpers - Knowledge Sharing - Data contracts](https://github.com/data-engineering-helpers/data-contracts)
 * [Data Engineering Helpers - Knowledge Sharing - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles)
 * [Data Engineering Helpers - Knowledge Sharing - Data life cycle](https://github.com/data-engineering-helpers/data-life-cycle)
 * [Data Engineering Helpers - Knowledge Sharing - Data management](https://github.com/data-engineering-helpers/data-management)
