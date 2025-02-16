@@ -4,27 +4,27 @@ Material for Data Quality in a Data Engineering perspective
 # Table of Content (ToC)
 * [Overview](#overview)
 * [References](#references)
-  * [Use cases](#use-cases)
-    * [Geonames](#geonames)
-    * [OpenTravelData (OPTD)](#opentraveldata-optd)
-  * [Articles](#articles)
-    * [Testing, Monitoring, and Observability](#testing-monitoring-and-observability)
-    * [Build a Data Quality dashboard](#build-a-data-quality-dashboard)
-    * [4 Key Benefits of Shift Left](#4-key-benefits-of-shift-left)
-    * [The Data Quality Conundrum](#the-data-quality-conundrum)
-    * [Seven Dimensions of Data Quality](#seven-dimensions-of-data-quality)
-    * [Writing data to production](#writing-data-to-production)
-    * [Data Quality with Great Expectations](#data-quality-with-great-expectations)
-    * [Data Quality 101: Ensuring accurate data in your pipelines](#data-quality-101-ensuring-accurate-data-in-your-pipelines)
-    * [Why Data Reliability Should Be the Top Priority](#why-data-reliability-should-be-the-top-priority)
-    * [Data validation, documentation, and profiling](#data-validation-documentation-and-profiling)
-    * [Preventing data quality issues with unit testing](#preventing-data-quality-issues-with-unit-testing)
-    * [Data Quality in Python Pipelines](#data-quality-in-python-pipelines)
-    * [Using data linter to streamline data quality checks](#using-data-linter-to-streamline-data-quality-checks)
-    * [Concepts and practices to ensure data quality](#concepts-and-practices-to-ensure-data-quality)
-    * [Stop Firefighting Data Quality Issues](#stop-firefighting-data-quality-issues)
-    * [The four pillars of data observability](#the-four-pillars-of-data-observability)
-    * [Data Quality Validation for Python Dataframes](#data-quality-validation-for-python-dataframes)
+* [Use cases](#use-cases)
+  * [Geonames](#geonames)
+  * [OpenTravelData (OPTD)](#opentraveldata-optd)
+* [Articles](#articles)
+  * [Testing, Monitoring, and Observability](#testing-monitoring-and-observability)
+  * [Build a Data Quality dashboard](#build-a-data-quality-dashboard)
+  * [4 Key Benefits of Shift Left](#4-key-benefits-of-shift-left)
+  * [The Data Quality Conundrum](#the-data-quality-conundrum)
+  * [Seven Dimensions of Data Quality](#seven-dimensions-of-data-quality)
+  * [Writing data to production](#writing-data-to-production)
+  * [Data Quality with Great Expectations](#data-quality-with-great-expectations)
+  * [Data Quality 101: Ensuring accurate data in your pipelines](#data-quality-101-ensuring-accurate-data-in-your-pipelines)
+  * [Why Data Reliability Should Be the Top Priority](#why-data-reliability-should-be-the-top-priority)
+  * [Data validation, documentation, and profiling](#data-validation-documentation-and-profiling)
+  * [Preventing data quality issues with unit testing](#preventing-data-quality-issues-with-unit-testing)
+  * [Data Quality in Python Pipelines](#data-quality-in-python-pipelines)
+  * [Using data linter to streamline data quality checks](#using-data-linter-to-streamline-data-quality-checks)
+  * [Concepts and practices to ensure data quality](#concepts-and-practices-to-ensure-data-quality)
+  * [Stop Firefighting Data Quality Issues](#stop-firefighting-data-quality-issues)
+  * [The four pillars of data observability](#the-four-pillars-of-data-observability)
+  * [Data Quality Validation for Python Dataframes](#data-quality-validation-for-python-dataframes)
 * [Frameworks and tools](#frameworks-and-tools)
   * [Open Data Contract Standard (ODCS)](#open-data-contract-standard-odcs)
   * [Deequ](#deequ)
@@ -50,20 +50,20 @@ Even though the members of the GitHub organization may be employed by
 some companies, they speak on their personal behalf and do not represent
 these companies.
 
-# References
-* [Material for Data platform - Data contracts](https://github.com/data-engineering-helpers/data-contracts)
-* [Material for Data platform - Data products](https://github.com/data-engineering-helpers/data-products)
-* [Architecture principles for data engineering pipelines on the Modern Data Stack (MDS)](https://github.com/data-engineering-helpers/architecture-principles)
-  * [Material for the Data platform - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles/blob/main/material/README.md)
-  * [Material for the Data platform - Modern Data Stack (MDS) in a box](https://github.com/data-engineering-helpers/mds-in-a-box/blob/main/README.md)
-  * [Material for the Data platform - Data-lakes, data warehouses, data lake-houses](https://github.com/data-engineering-helpers/data-lakehouse)
-  * [Material for the Data platform - Metadata](https://github.com/data-engineering-helpers/metadata/blob/main/README.md)
-* Specifications/principles for a
-  [data engineering pipeline deployment tool](https://github.com/data-engineering-helpers/data-pipeline-deployment)
+## Other repositories of Data Engineering helpers
+* [Data Engineering Helpers - Knowledge Sharing - Data products](https://github.com/data-engineering-helpers/data-products)
+* [Data Engineering Helpers - Knowledge Sharing - Data quality](https://github.com/data-engineering-helpers/data-quality)
+* [Data Engineering Helpers - Knowledge Sharing - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles)
+* [Data Engineering Helpers - Knowledge Sharing - Data life cycle](https://github.com/data-engineering-helpers/data-life-cycle)
+* [Data Engineering Helpers - Knowledge Sharing - Data management](https://github.com/data-engineering-helpers/data-management)
+* [Data Engineering Helpers - Knowledge Sharing - Data lakehouse](https://github.com/data-engineering-helpers/data-lakehouse)
+* [Data Engineering Helpers - Knowledge Sharing - Metadata](https://github.com/data-engineering-helpers/metadata)
+* [Data Engineering Helpers - Knowledge Sharing - Data pipeline deployment](https://github.com/data-engineering-helpers/data-pipeline-deployment)
+* [Data Engineering Helpers - Knowledge Sharing - Semantic layer](https://github.com/data-engineering-helpers/semantic-layer)
 
-## Use cases
+# Use cases
 
-### Geonames
+## Geonames
 [Geonames](https://www.geonames.org/) is kind of a geographic wiki,
 crowd-souring meta-data for points of interest (PoI)/points of reference (PoR)
 in the world.
@@ -105,7 +105,7 @@ The [Geonames QA framework](http://qa.geonames.org/qa/) allows to vet the data s
 for the monthly premium data feed, while keeping track of the problemtic records
 so that data stewards/curators may fix them later on.
 
-### OpenTravelData (OPTD)
+## OpenTravelData (OPTD)
 [OpenTravelData (OPTD)](https://github.com/opentraveldata/opentraveldata)
 curates, under the
 [Creative Commons (CC) BY 4.0 license](https://creativecommons.org/licenses/by/4.0/),
@@ -133,9 +133,22 @@ For instance, for the 2 June 2021 snapshots:
 The data validation rule checkers are mere scripts. Most of them are
 written in Python, but any other programmation language may be used.
 
-## Articles
+# Articles
 
-### Testing, Monitoring, and Observability
+## Data Quality at Petabyte Scale: Building Trust in the Data Lifecycle
+* Title: Data Quality at Petabyte Scale: Building Trust in the Data Lifecycle
+* Date: Feb. 2025
+* Author: Zakariah Siyaji
+  ([Zakariah Siyaji on LinkedIn](https://www.linkedin.com/in/zakariah-siyaji/),
+  [Zakariah Siyaji on Medium](https://medium.com/@zaki.siyaji))
+* Link to the post on LinkedIn by Chad Sanderson:
+  https://www.linkedin.com/posts/chad-sanderson_many-companies-talk-about-implementing-data-activity-7296212049565515777-dnCn/
+* Link to the article on Medium:
+  https://medium.com/glassdoor-engineering/data-quality-at-petabyte-scale-building-trust-in-the-data-lifecycle-7052361307a4
+* Also referenced in
+  [Data Engineering Helpers - Knowledge Sharing - Data life cycle](https://github.com/data-engineering-helpers/data-life-cycle/blob/main/README.md#data-quality-at-petabyte-scale-building-trust-in-the-data-lifecycle)
+
+## Testing, Monitoring, and Observability
 * Title: The Data Engineer’s Guide to Testing, Monitoring, and Observability
 * Date: Dec. 2024
 * Author: Alex Caruso
@@ -144,7 +157,7 @@ written in Python, but any other programmation language may be used.
 * Link to the article: https://airbyte.com/blog/the-data-engineers-guide-to-testing-monitoring-and-observability
 * Publisher: Airbyte blog
 
-### Build a Data Quality dashboard
+## Build a Data Quality dashboard
 * Title: Build a Data Quality dashboard
 * Data: Sep. 2024
 * Author: Hitesh Parab
@@ -152,7 +165,7 @@ written in Python, but any other programmation language may be used.
   * Part 1: https://medium.com/@hitesh09parab/data-quality-framework-in-databricks-using-great-expectations-84baf00bb196
   * Part 2: https://medium.com/@hitesh09parab/part-2-data-quality-dashboard-a-visual-approach-to-monitoring-expectations-in-databricks-4c490fc25891
 
-### 4 Key Benefits of Shift Left
+## 4 Key Benefits of Shift Left
 * Title: 4 Key Benefits of Shift Left
 * Date: Oct. 2024
 * Author: Andy Sawyer
@@ -162,7 +175,7 @@ written in Python, but any other programmation language may be used.
   https://www.linkedin.com/feed/update/urn:li:activity:7254749855766528001/
 * Publisher: Medium
 
-### The Data Quality Conundrum
+## The Data Quality Conundrum
 * Title: The Data Quality Conundrum
 * Author: Dylan Anderson
   ([Dylan Anderson on LinkedIn](https://www.linkedin.com/in/dylansjanderson/),
@@ -174,7 +187,7 @@ written in Python, but any other programmation language may be used.
 * Link to the LinkedIn post:
   https://www.linkedin.com/posts/dylansjanderson_data-dataquality-datastrategy-activity-7274772396358688768-JNY5/
 
-### Seven Dimensions of Data Quality
+## Seven Dimensions of Data Quality
 * Title: Seven Dimensions of Data Quality
 * Date: May 2024
 * Author: Jean-Georges Perrin
@@ -184,7 +197,7 @@ written in Python, but any other programmation language may be used.
   https://medium.com/abeadata/seven-dimensions-of-data-quality-a97df0b821b8
 * Publisher: Medium
 
-### Writing data to production
+## Writing data to production
 * Title: Writing data to production is a contract that isn't free!
 * Date: Aug. 2023
 * Author: Zach Wilson
@@ -194,7 +207,7 @@ written in Python, but any other programmation language may be used.
   https://open.substack.com/pub/eczachly/p/writing-data-to-production-is-a-contract
 * Publisher: Substack
 
-### Data Quality with Great Expectations
+## Data Quality with Great Expectations
 * Title: Data Quality with Great Expectations
 * Date: May 2023
 * Author: Charles Verleyen
@@ -204,7 +217,7 @@ written in Python, but any other programmation language may be used.
   https://medium.astrafy.io/data-quality-with-great-expectations-e41504d93e17
 * Publisher: Medium
 
-### Data Quality 101: Ensuring accurate data in your pipelines
+## Data Quality 101: Ensuring accurate data in your pipelines
 * Title: Data Quality 101: Ensuring accurate data in your pipelines
 * Date: May 2023
 * Author: Pedro Henrique
@@ -214,7 +227,7 @@ written in Python, but any other programmation language may be used.
   https://medium.com/@pedro.schleder/data-quality-101-ensuring-accurate-data-in-your-pipelines-f1649c2c5241
 * Publisher: Medium
 
-### Why Data Reliability Should Be the Top Priority
+## Why Data Reliability Should Be the Top Priority
 * Title: Why Data Reliability Should Be the Top Priority: Understanding the Importance and Benefits
 * Date: April 2023
 * Author: Seckin Dinc
@@ -224,7 +237,7 @@ written in Python, but any other programmation language may be used.
   https://medium.com/data-and-beyond/why-data-reliability-should-be-the-top-priority-understanding-the-importance-and-benefits-75d547a35b64
 * Publisher: Medium
 
-### Data validation, documentation, and profiling
+## Data validation, documentation, and profiling
 * Title: Data Validation, Documentation, and Profiling with Great Expectations
 * Date: March 2023
 * Author: Seckin Dinc
@@ -234,7 +247,7 @@ written in Python, but any other programmation language may be used.
    https://medium.com/@seckindinc/data-validation-documentation-and-profiling-with-great-expectations-c7d05690c690
 * Publisher: Medium
 
-### Preventing data quality issues with unit testing
+## Preventing data quality issues with unit testing
 * Title: Preventing Data Quality Issues with Unit Testing
 * Date: March 2023
 * Author: Seckin Dinc
@@ -244,7 +257,7 @@ written in Python, but any other programmation language may be used.
    https://medium.com/@seckindinc/preventing-data-quality-issues-with-unit-testing-1b0565d3a4db
 * Publisher: Medium
 
-### Data Quality in Python Pipelines
+## Data Quality in Python Pipelines
 * Title: Data Quality in Python Pipelines!
 * Date: March 2023
 * Author: Josue Luzardo Gebrim
@@ -254,7 +267,7 @@ written in Python, but any other programmation language may be used.
    https://jlgjosue.medium.com/data-quality-in-python-pipelines-4ad1e8eb6603
 * Publisher: Medium
 
-### Using data linter to streamline data quality checks
+## Using data linter to streamline data quality checks
 * Title: Using Data Linter to Streamline Data Quality Check
 * Date: March 2023
 * Author: Victoria Jiang
@@ -264,7 +277,7 @@ written in Python, but any other programmation language may be used.
    https://medium.com/@shuyuj/using-data-linter-to-streamline-data-quality-check-490a1eb6cdd6
 * Publisher: Medium
 
-### Concepts and practices to ensure data quality
+## Concepts and practices to ensure data quality
 * Title: Concepts and practices to ensure data quality
 * Date: Aug. 2022
 * Author: Kevin Hu
@@ -274,7 +287,7 @@ written in Python, but any other programmation language may be used.
   https://towardsdatascience.com/concepts-and-practices-to-ensure-data-quality-f3f0a95acbbf
 * Publisher: Medium
 
-### Stop Firefighting Data Quality Issues
+## Stop Firefighting Data Quality Issues
 * Title: Stop Firefighting Data Quality Issues, a quick guide to creating
   a competitive data quality assessment
 * Date: Oct. 2021
@@ -285,7 +298,7 @@ written in Python, but any other programmation language may be used.
   https://towardsdatascience.com/stop-firefighting-data-quality-issues-4c064bcbbb53
 * Publisher: Medium
 
-### The four pillars of data observability
+## The four pillars of data observability
 * Title: The four pillars of data observability
 * Date: Oct. 2021
 * Author: Kevin Hu
@@ -295,7 +308,7 @@ written in Python, but any other programmation language may be used.
   https://towardsdatascience.com/the-four-pillars-of-data-observability-95a96a1a24e7
 * Publisher: Medium
 
-### Data Quality Validation for Python Dataframes
+## Data Quality Validation for Python Dataframes
 * Title: Data Quality Validation for Python Dataframes
 * Date: Oct. 2021
 * Author: Miguel Cabrera
