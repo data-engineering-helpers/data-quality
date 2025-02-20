@@ -149,6 +149,11 @@ written in Python, but any other programmation language may be used.
 * Also referenced in
   [Data Engineering Helpers - Knowledge Sharing - Data life cycle](https://github.com/data-engineering-helpers/data-life-cycle/blob/main/README.md#data-quality-at-petabyte-scale-building-trust-in-the-data-lifecycle)
 
+## From data lakes to data swamp
+* Title: From data lakes to data swamp
+* Link to the article:
+  https://www.zdnet.com/paid-content/article/from-data-lakes-to-data-swamps/
+
 ## Testing, Monitoring, and Observability
 * Title: The Data Engineer’s Guide to Testing, Monitoring, and Observability
 * Date: Dec. 2024
