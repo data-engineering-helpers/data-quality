@@ -8,6 +8,7 @@ Material for Data Quality in a Data Engineering perspective
   * [Geonames](#geonames)
   * [OpenTravelData (OPTD)](#opentraveldata-optd)
 * [Articles](#articles)
+  * [Database Migration Terminology 101](#database-migration-terminology-101)
   * [Data Quality at Petabyte Scale: Building Trust in the Data Lifecycle](#data-quality-at-petabyte-scale-building-trust-in-the-data-lifecycle)
   * [Testing, Monitoring, and Observability](#testing-monitoring-and-observability)
   * [Build a Data Quality dashboard](#build-a-data-quality-dashboard)
@@ -135,6 +136,13 @@ The data validation rule checkers are mere scripts. Most of them are
 written in Python, but any other programmation language may be used.
 
 # Articles
+
+## Database Migration Terminology 101
+* Title: Database Migration Terminology 101
+* Date: Feb. 2025
+* Author: Tom Baeyens
+* Link to the post on LinkedIn:
+  https://www.linkedin.com/posts/tombaeyens_database-migration-terminology-101-source-activity-7297573805609156609-ZrQW/
 
 ## Data Quality at Petabyte Scale: Building Trust in the Data Lifecycle
 * Title: Data Quality at Petabyte Scale: Building Trust in the Data Lifecycle
