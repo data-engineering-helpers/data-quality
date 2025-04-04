@@ -8,6 +8,7 @@ Material for Data Quality in a Data Engineering perspective
   * [Geonames](#geonames)
   * [OpenTravelData (OPTD)](#opentraveldata-optd)
 * [Articles](#articles)
+  * [Your data quality problem is an incentives problem](#your-data-quality-problem-is-an-incentives-problem) 
   * [Database Migration Terminology 101](#database-migration-terminology-101)
   * [Data Quality at Petabyte Scale: Building Trust in the Data Lifecycle](#data-quality-at-petabyte-scale-building-trust-in-the-data-lifecycle)
   * [Testing, Monitoring, and Observability](#testing-monitoring-and-observability)
@@ -136,6 +137,13 @@ The data validation rule checkers are mere scripts. Most of them are
 written in Python, but any other programmation language may be used.
 
 # Articles
+
+## Your data quality problem is an incentives problem
+* Title: Your data quality problem is an incentives problem
+* Date: Apr. 2025
+* Author: Andrew Jones
+* Link to the article on Substack:
+  https://andrew-jones.com/newsletter/2025-04-04-your-data-quality-problem-is-an-incentives-problem/
 
 ## Database Migration Terminology 101
 * Title: Database Migration Terminology 101
