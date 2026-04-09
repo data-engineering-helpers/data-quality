@@ -38,6 +38,7 @@ Material for Data Quality in a Data Engineering perspective
   * [Elementary](#elementary)
   * [SODA](#soda)
   * [Google Common Expression Language](#google-common-expression-language)
+  * [Provero](#provero)
   * [Pydantic](#pydantic)
   * [Glue Data Quality](#glue-data-quality)
 
@@ -414,6 +415,15 @@ analysts are using "good" data to make decisions.
 * Homepage: https://opensource.google.com/projects/cel
 
 The Common Expression Language (CEL) implements common semantics for expression evaluation, enabling different applications to more easily interoperate.
+
+## Provero
+* Home page / GitHub page: https://github.com/provero-org/provero
+
+Provero is a vendor-neutral, declarative data quality engine.
+Define checks in YAML, run them anywhere. It ships with 16 built-in check types,
+a SQL batch optimizer, anomaly detection, and data contract support.
+Connectors are available for DuckDB, PostgreSQL, Snowflake, and BigQuery.
+Licensed under the Apache License 2.0.
 
 ## Pydantic
 * Pydantic official documentation: https://pydantic-docs.helpmanual.io/
